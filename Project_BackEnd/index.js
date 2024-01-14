@@ -22,3 +22,5 @@ app.use(urlencoded({ extends: true }));
     console.log(error);
   }
 })();
+
+app.use("/", router);
